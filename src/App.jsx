@@ -1,14 +1,12 @@
-import React from 'react'
-import Button from '@mui/material/Button';
-import DeleteIcon from '@mui/icons-material/Delete';
+import React from "react";
 
-import WeatherApp from './WeatherApp';
+import WeatherApp from "./WeatherApp";
 function App() {
   return (
     <div>
-      <WeatherApp/>
+      <WeatherApp />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

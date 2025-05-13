@@ -48,9 +48,9 @@ function SearchBox({updateInfo}) {
   };
 
   return (
-    <div className="ml-9 mb-5 flex text-center">
+    <div className=" mb-5 flex text-center">
       <form action="" onSubmit={handleSubmit}>
-        <h3 className="font-bold text-2xl mb-5">Search For The Weather. </h3>
+        <h3 className="font-bold text-2xl mb-5">Search City</h3>
         <TextField
           className=""
           id="city"
